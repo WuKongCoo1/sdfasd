@@ -1,0 +1,6 @@
+framework module Pods_sdfasd_Tests {
+  umbrella header "Pods-sdfasd_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

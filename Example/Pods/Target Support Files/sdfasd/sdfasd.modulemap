@@ -1,0 +1,6 @@
+framework module sdfasd {
+  umbrella header "sdfasd-umbrella.h"
+
+  export *
+  module * { export * }
+}
