@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'sdfasd_Example' do
+  pod 'sdfasd', :path => '../'
+
+  target 'sdfasd_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
