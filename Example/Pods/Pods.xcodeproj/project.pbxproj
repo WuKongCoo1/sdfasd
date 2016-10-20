@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0700723618E323E4CDDBC403610A81AB /* WKTLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B31676316BA7E63F9E635D0237DA68A /* WKTLabel.m */; };
 		137F0EB6993C053E6861A56F53CC3D88 /* Pods-sdfasd_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE859D3ACC1B5A172E67B770ED085933 /* Pods-sdfasd_Example-dummy.m */; };
-		1494C1BB2414EEB3DE8996EFBB366C69 /* sdfasd-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B8CD13B9FBE0F85818468DFEA01E5AE /* sdfasd-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		25951BA7714F480710C39DA9349D418C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		359ABCE44A2D0E472CC7C14D1A9FE692 /* Pods-sdfasd_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FB5E05288D818DDCB10389A63EF45FE /* Pods-sdfasd_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3BECFA89CDFC94613AE179C1D13DB71A /* Pods-sdfasd_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1290DB2DA2A5EDBF1E5A38C605519465 /* Pods-sdfasd_Tests-dummy.m */; };
+		5121BDE4B072D97F406C33499C251EDE /* sdfasd-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B8CD13B9FBE0F85818468DFEA01E5AE /* sdfasd-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6BC2AD74E84D493534CFBBD39A2D2D68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		84336E1E2F8DE0F7C5D127187A0BC696 /* sdfasd-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 74057B8BBEC5DE1DB1C2921D2652A5BC /* sdfasd-dummy.m */; };
-		8FC2DE666AC3BCAF1FAA379F4BB61025 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6F4BC386F62E7F2DA8EB13F1B040D3 /* ReplaceMe.m */; };
 		A3499CED45C37ECBFF748861E13DE6D9 /* Pods-sdfasd_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C2FCF642F8B22AFB342F7BAC518EAD8C /* Pods-sdfasd_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B61E1BDBFDA3A59DABA0474C18CA812C /* WKTLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 97983A463682EB8828A2B582AC725317 /* WKTLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EDB593381F4F910EF0667B8CFE5E45A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		FD14496E7701B438EEDB9AA88313F069 /* sdfasd-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 74057B8BBEC5DE1DB1C2921D2652A5BC /* sdfasd-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +32,7 @@
 
 /* Begin PBXFileReference section */
 		00EE59CB5F16CF299F79955911496731 /* Pods-sdfasd_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-sdfasd_Tests-resources.sh"; sourceTree = "<group>"; };
+		0B31676316BA7E63F9E635D0237DA68A /* WKTLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WKTLabel.m; sourceTree = "<group>"; };
 		0C26428324C167FC5E9D2E85D089F3F0 /* Pods-sdfasd_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-sdfasd_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		1290DB2DA2A5EDBF1E5A38C605519465 /* Pods-sdfasd_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-sdfasd_Tests-dummy.m"; sourceTree = "<group>"; };
 		169171C1E6B738A228D6C6CAD2CC25A9 /* Pods-sdfasd_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-sdfasd_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -40,7 +42,6 @@
 		2000B3F150F9402EE65CCBFAC98497B5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		417A82158E0BF377A945CCF3ACBFB0CC /* Pods-sdfasd_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-sdfasd_Example.modulemap"; sourceTree = "<group>"; };
 		4404466A640F52C15B22FCBE17B373D0 /* Pods-sdfasd_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-sdfasd_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		5D6F4BC386F62E7F2DA8EB13F1B040D3 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		6EC1A79C602160112ED6D926ED6925AA /* sdfasd.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = sdfasd.xcconfig; sourceTree = "<group>"; };
 		6FB5E05288D818DDCB10389A63EF45FE /* Pods-sdfasd_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-sdfasd_Tests-umbrella.h"; sourceTree = "<group>"; };
 		74057B8BBEC5DE1DB1C2921D2652A5BC /* sdfasd-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "sdfasd-dummy.m"; sourceTree = "<group>"; };
@@ -53,6 +54,7 @@
 		8DEA867E6AA02A482B3909BCB8C4A74B /* sdfasd.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = sdfasd.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		977B8FFC6F57029899E726E19DA8643D /* Pods-sdfasd_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-sdfasd_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		97983A463682EB8828A2B582AC725317 /* WKTLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WKTLabel.h; sourceTree = "<group>"; };
 		9E337D793978C46BEC3ECBE7CCEFA989 /* Pods-sdfasd_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-sdfasd_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9F5E4DB7A3AD88BAE24C0FCCDDC69AAA /* Pods-sdfasd_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-sdfasd_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		9F680C0A1D0ECD2034CD8539FD740436 /* Pods-sdfasd_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-sdfasd_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -117,14 +119,6 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		4B9E55BD89E90F9EB06C19963E9D7676 /* sdfasd */ = {
-			isa = PBXGroup;
-			children = (
-				6B197CDA802A091DC7CBD6F72F0EDF2A /* Classes */,
-			);
-			path = sdfasd;
-			sourceTree = "<group>";
-		};
 		526CA3852D8674DB04B8E02B0B0592B0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -138,19 +132,11 @@
 		5CD6FAAE708505388D5D2CB5D59609D1 /* sdfasd */ = {
 			isa = PBXGroup;
 			children = (
-				4B9E55BD89E90F9EB06C19963E9D7676 /* sdfasd */,
+				B908E5D3442BDC11D276A82F5C41862A /* sdfasd */,
 				793ED834892411A7040ADB7C02E4C064 /* Support Files */,
 			);
 			name = sdfasd;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		6B197CDA802A091DC7CBD6F72F0EDF2A /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				5D6F4BC386F62E7F2DA8EB13F1B040D3 /* ReplaceMe.m */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		793ED834892411A7040ADB7C02E4C064 /* Support Files */ = {
@@ -214,6 +200,14 @@
 			path = "Target Support Files/Pods-sdfasd_Tests";
 			sourceTree = "<group>";
 		};
+		B908E5D3442BDC11D276A82F5C41862A /* sdfasd */ = {
+			isa = PBXGroup;
+			children = (
+				CC5925DF897678BD7F039CC8D0398DD8 /* Classes */,
+			);
+			path = sdfasd;
+			sourceTree = "<group>";
+		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -222,22 +216,32 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		CC5925DF897678BD7F039CC8D0398DD8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				97983A463682EB8828A2B582AC725317 /* WKTLabel.h */,
+				0B31676316BA7E63F9E635D0237DA68A /* WKTLabel.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		12554C160AB0EB0FCA61E5AAA997BC04 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5121BDE4B072D97F406C33499C251EDE /* sdfasd-umbrella.h in Headers */,
+				B61E1BDBFDA3A59DABA0474C18CA812C /* WKTLabel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4B3700F5B9052DE0C5E201E2B21AA2AC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A3499CED45C37ECBFF748861E13DE6D9 /* Pods-sdfasd_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		76787EEB44CB8839873D506510E083A3 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1494C1BB2414EEB3DE8996EFBB366C69 /* sdfasd-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,9 +277,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 157C09CC3A1E8E6863BD2D4A35038835 /* Build configuration list for PBXNativeTarget "sdfasd" */;
 			buildPhases = (
-				BC835FD1B772948176730AEB01EEF331 /* Sources */,
+				3AAFAAFBEC7A4DAF6470A8C7F94E7FA2 /* Sources */,
 				4448B119E0AAB07F14239685F9008E1B /* Frameworks */,
-				76787EEB44CB8839873D506510E083A3 /* Headers */,
+				12554C160AB0EB0FCA61E5AAA997BC04 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -341,12 +345,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BC835FD1B772948176730AEB01EEF331 /* Sources */ = {
+		3AAFAAFBEC7A4DAF6470A8C7F94E7FA2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FC2DE666AC3BCAF1FAA379F4BB61025 /* ReplaceMe.m in Sources */,
-				84336E1E2F8DE0F7C5D127187A0BC696 /* sdfasd-dummy.m in Sources */,
+				FD14496E7701B438EEDB9AA88313F069 /* sdfasd-dummy.m in Sources */,
+				0700723618E323E4CDDBC403610A81AB /* WKTLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

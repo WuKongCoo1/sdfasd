@@ -7,6 +7,7 @@
 //
 
 #import "WKViewController.h"
+#import <sdfasd/WKTLabel.h>
 
 @interface WKViewController ()
 
